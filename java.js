@@ -5,12 +5,12 @@ window.onload = function () {
         url: 'https://www.dolarsi.com/api/api.php?type=valoresprincipales',
         success: function (data) {
 
-            console.log(data)
+            //console.log(data)
 
-            console.log(data[1].casa.compra);
-            console.log(data[1].casa.venta);
-            console.log(data[1].casa.nombre);
-            console.log(data[1].casa.variacion);
+            //console.log(data[1].casa.compra);
+            //console.log(data[1].casa.venta);
+            //console.log(data[1].casa.nombre);
+            //console.log(data[1].casa.variacion);
 
             $(".app").prepend(`
         
